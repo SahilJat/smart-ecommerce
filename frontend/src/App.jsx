@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://your-render-url.onrender.com/api';
 const USER_ID = 1; // Hardcoded for our test user
 
 function App() {
